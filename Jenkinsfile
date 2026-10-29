@@ -1,4 +1,4 @@
-// Practica 6 - Pipeline declarativo de factorial-app
+// Pipeline declarativo de factorial-app
 // Jenkins lo lee desde la raiz del repositorio (Pipeline script from SCM).
 pipeline {
     agent any

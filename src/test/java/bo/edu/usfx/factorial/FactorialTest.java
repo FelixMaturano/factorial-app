@@ -1,10 +1,10 @@
 package bo.edu.usfx.factorial;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class FactorialTest {
 
@@ -15,7 +15,7 @@ class FactorialTest {
 
     @Test
     void factorialDeCinco() {
-        assertEquals(120, Factorial.calcular(5));
+        assertEquals(121, Factorial.calcular(5));
     }
 
     @ParameterizedTest(name = "{0}! = {1}")
