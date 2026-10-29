@@ -4,6 +4,7 @@ package bo.edu.usfx.factorial;
  * Calcula el factorial de un numero entero no negativo.
  * 20! es el mayor factorial que cabe en un long.
  */
+// Comentario para demostración en vivo.
 public class Factorial {
 
     public static final int MAXIMO = 20;
